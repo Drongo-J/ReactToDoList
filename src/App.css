@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+.container {
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  border: 3px solid deepskyblue;
+  padding: 10px 30px;
+  background-color: rgb(113, 12, 190);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(29, 29, 29);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-size: 2.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul {
+  list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+ul > li:hover {
+  background-color: #f5f5f5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-inline,
+.form-control {
+  width: 74%;
+  margin: auto;
+}
+
+.done *{
+  color: red;
+  text-decoration: line-through;
+}
+
+.undone{
+  color: #61DAF8;
+}
+
+/* Style for the form input text */
+#myInput {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: none;
+  outline: none;
+  margin-right: 10px;
+}
+
+/* Style for the form button */
+#myButton {
+  
+  padding: 6px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect for the button */
+#myButton:hover {
+  background-color: #0056b3;
 }
